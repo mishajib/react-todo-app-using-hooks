@@ -19,6 +19,7 @@ function Todo(props) {
     // Page title change on component mount
     useEffect(() => {
         handleChangePageTitle();
+        // eslint-disable-next-line
     }, []);
 
 
